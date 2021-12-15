@@ -1,0 +1,25 @@
+/* Theme white color */
+
+.theme-bg-linear {
+    background: linear-gradient(to top right, #1B5A5E, #1e878d);
+}
+
+.theme-bg-green {
+    background-color: #1B5A5E;
+}
+
+.theme-bg-light-green {
+    background-color: #1e878d;
+}
+
+.theme-border-green {
+    border-color: #1e878d48;
+}
+
+.theme-green-text-light {
+    color: #1e878d;
+}
+
+.theme-green-text {
+    color: #1B5A5E;
+}
