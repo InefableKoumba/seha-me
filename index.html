@@ -12,9 +12,9 @@
 <body>
     <header class="min-h-screen" style="background:linear-gradient(to top left,#1B5A5E,#1e878d);">
         <nav>
-            <div class="flex justify-between px-20">
+            <div class="flex justify-center lg:justify-between px-20">
                 <!-- Logo -->
-                <div class="h-24 w-44 flex items-center">
+                <div class="h-16 w-28 lg:h-24 lg:w-44 flex items-center">
                     <svg viewBox="0 0 298.668 54.509">
                         <g id="Group_51" data-name="Group 51" transform="translate(-185.822 -326.311)">
                             <path id="Path_1" data-name="Path 1"
@@ -57,34 +57,46 @@
                     </svg>
                 </div>
                 <!-- Links -->
-                <ul class="flex items-center justify-center gap-x-10 text-xl">
+                <!-- <ul class="flex items-center justify-center gap-x-10 text-xl">
                     <li class="text-white">Home</li>
                     <li class="text-white">About</li>
                     <li class="text-white">Contact</li>
-                </ul>
+                </ul> -->
                 <!-- Buttons links -->
-                <div class="flex gap-x-4 items-center justify-center">
-                    <a href="#" class="rounded text-white py-2 px-6 border border-gray-200">Login</a>
-                    <a href="#" class="bg-red-700 rounded text-white py-2 px-6">Register</a>
+                <div class="hidden lg:flex gap-x-4 items-center justify-center">
+                    <a href="https://app.sehame.com/App/login.jsf" target="_blank"
+                        class="rounded text-white py-2 px-6 border border-gray-200">Login</a>
+                    <a href="https://app.sehame.com/App/register.jsf" target="_blank"
+                        class="bg-red-700 rounded text-white py-2 px-6 border border-red-700">Register</a>
                 </div>
             </div>
         </nav>
-        <div class="relative flex overflow-hidden items-center h-full py-28">
-            <div class="w-1/2 text-white pl-20">
-                <div class="flex flex-col text-7xl font-bold">
-                    <span>Welcome to</span>
+        <div class="flex flex-col lg:flex-row items-center h-full mt-6 lg:mt-0">
+            <div class="text-white lg:pl-20 ">
+                <div class="flex flex-col text-5xl lg:text-7xl font-bold text-center lg:text-left">
+                    <span class="whitespace-nowrap">Welcome to</span>
                     <span>Seha-me</span>
                 </div>
-                <div class="my-8">
-                    <p class="text-xl"><span class="block">The future of storing and sharing medical </span><span>
+                <div class="my-8 text-center lg:text-left">
+                    <p class="text-xl lg:text-2xl"><span class="lg:whitespace-nowrap">The future of storing and sharing
+                            medical
+                        </span><span>
                             records
                             securely.</span>
                     </p>
                 </div>
-                <div>
-                    <a href="#" class="bg-red-700 rounded text-white text-xl py-4 px-8">Get started</a>
-                    <div class="flex gap-x-4 mt-12">
-                        <svg class="w-8" viewBox="0 0 35 35">
+                <div class="text-center lg:text-left">
+                    <a href="https://app.sehame.com/App/register.jsf" target="_blank"
+                        class="hidden lg:inline bg-red-700 rounded text-white text-md lg:text-xl py-4 lg:py-4 px-6 lg:px-8">Get
+                        started</a>
+                    <div class="flex lg:hidden gap-x-4 items-center justify-center">
+                        <a href="https://app.sehame.com/App/login.jsf" target="_blank"
+                            class="rounded text-white py-2 px-6 border border-gray-200">Login</a>
+                        <a href="https://app.sehame.com/App/register.jsf" target="_blank"
+                            class="bg-red-700 rounded text-white py-2 px-6 border border-red-700">Register</a>
+                    </div>
+                    <!-- <div class="flex gap-x-4 mt-12"> -->
+                    <!-- <svg class="w-8" viewBox="0 0 35 35">
                             <path id="facebook2"
                                 d="M31.719,0H3.281A3.291,3.291,0,0,0,0,3.281V31.719A3.291,3.291,0,0,0,3.281,35H17.5V19.688H13.125V15.313H17.5V13.125a6.573,6.573,0,0,1,6.563-6.562h4.375v4.375H24.063a2.194,2.194,0,0,0-2.187,2.188v2.188h6.563l-1.094,4.375H21.875V35h9.844A3.291,3.291,0,0,0,35,31.719V3.281A3.291,3.291,0,0,0,31.719,0Z"
                                 fill="rgba(245,245,245,0.84)" />
@@ -111,13 +123,15 @@
                             <path id="twitter"
                                 d="M44.994,8.139a18.831,18.831,0,0,1-5.3,1.388,8.966,8.966,0,0,0,4.059-4.888,19.082,19.082,0,0,1-5.862,2.146A9.428,9.428,0,0,0,31.152,4a9.037,9.037,0,0,0-9.227,8.834,8.441,8.441,0,0,0,.238,2.011A26.6,26.6,0,0,1,3.138,5.609a8.543,8.543,0,0,0-1.247,4.442,8.734,8.734,0,0,0,4.1,7.354,9.545,9.545,0,0,1-4.183-1.1v.109A8.944,8.944,0,0,0,9.22,25.076a9.63,9.63,0,0,1-2.434.311,9.893,9.893,0,0,1-1.739-.16,9.221,9.221,0,0,0,8.62,6.142A19.046,19.046,0,0,1,2.2,35.156a19.021,19.021,0,0,1-2.206-.127A26.956,26.956,0,0,0,14.151,39c16.977,0,26.265-13.469,26.265-25.147,0-.386-.008-.766-.027-1.144a18.165,18.165,0,0,0,4.6-4.569Z"
                                 transform="translate(0.006 -4)" fill="rgba(245,245,245,0.83)" />
-                        </svg>
-                    </div>
+                        </svg> -->
+                    <!-- </div> -->
                 </div>
             </div>
-            <div class="absolute top-10 right-0 transform translate-x-1/4 h-full">
-                <img style="width: 58rem" src="./img/illustration.svg" alt="" srcset="">
+            <div class="w-full mt-4 lg:mt-0">
+                <img class="" src="./img/illustration.svg" alt="" srcset="">
             </div>
+        </div>
+        <div class=" px-16 text-center mt-10 text-white text-lg">Our website is coming soon. Please stay tuned... !
         </div>
     </header>
 
