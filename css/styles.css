@@ -1,0 +1,19 @@
+* {
+    font-family: 'Segoe UI';
+}
+
+.font-verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.font-elegant {
+    font-family: Elegant, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-green {
+    color: #1B5A5E;
+}
+
+.bg-green {
+    background-color: #1B5A5E;
+}
